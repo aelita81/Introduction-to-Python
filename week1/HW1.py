@@ -29,5 +29,6 @@ d = 5*a**2 - a*b + (a%2) - a/5
 print (d)
 e = (b**3 + 3*a*b - 10*c)
 print (e)
-user_input = int(input('Insert a number: '))
-print('The number is', 'even' if (user_input % 2 == 0) else 'odd')
+num = int(input('Number: '))
+is_even = num % 2 == 0
+print('Number is', (is_even is True and 'even') or 'odd')

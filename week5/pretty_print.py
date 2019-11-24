@@ -1,4 +1,4 @@
 def simple_print(x):
-    print ("Result:" + x)
+    print ("Result:" + str.(x))
 def pro_print(x):
-    print ("The result of the operation:" + x)
+    print ("The result of the operation:" + str.(x))

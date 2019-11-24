@@ -1,4 +1,4 @@
-import pretty_print
+import pretty_print as pp
 
 
 def  calculate_cube (x):
@@ -10,10 +10,10 @@ def  calculate_square (x):
 def main():
     
     result_square = calculate_square (2)
-    simple_print (result_square)  
+    pp.simple_print (result_square)  
     
     result_cube = calculate_cube(4)
-    pro_print (result_cube)
+    pp.pro_print (result_cube)
 
 
 if __name__ == '__main__':
